@@ -1,5 +1,5 @@
 /*Main heading dark red*/
-.heading1 {color:#660000;} 
+.heading1 {color:coral;} 
 
 /*blockquote and subheadings medium blue*/
 .heading3 {color:#3366cc;} 
@@ -13,9 +13,9 @@ blockquote {font-size: 16pt; font-family: cursive; margin-left: 120px}
 #footer {font-size: 10pt}
 
 a:link {color:blue;}
-a:hover{color:red;}
-a:active{color:green;}
-a:visited{color:darkblue}
-a:focus{color:coral}
+a:visited {color:orange;}
+a:hover {color:red;}
+a:focus {color:blueviolet;}
+a:active {color:green;}
 
 a {text-decoration: none; font-size: 10pt; font-family: sans-serif} 

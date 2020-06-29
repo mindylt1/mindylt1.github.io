@@ -1,2 +1,21 @@
-.heading1 {color:#660000;}
-.heading3 {color:#3366cc}
+/*Main heading dark red*/
+.heading1 {color:#660000;} 
+
+/*blockquote and subheadings medium blue*/
+.heading3 {color:#3366cc;} 
+
+/*indents welcome paragraphs and experience overview*/
+.overview {margin-left: 25px;}  
+
+blockquote {font-size: 16pt; font-family: cursive; margin-left: 120px}
+
+/*format footer*/
+#footer {font-size: 10pt}
+
+a:link {color:blue;}
+a:hover{color:red;}
+a:active{color:green;}
+a:visited{color:darkblue}
+a:focus{color:coral}
+
+a {text-decoration: none; font-size: 10pt; font-family: sans-serif} 

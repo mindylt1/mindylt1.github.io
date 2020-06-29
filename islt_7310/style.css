@@ -7,7 +7,7 @@
 /*indents welcome paragraphs and experience overview*/
 .overview {margin-left: 25px;}  
 
-blockquote {font-size: 16pt; font-family: cursive; margin-left: 120px}
+blockquote {font-size: 16pt; font-family: cursive; text-align: center}
 
 /*format footer*/
 #footer {font-size: 10pt}

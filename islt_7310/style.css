@@ -49,7 +49,8 @@ Tested:  July 1, 2020, passed on Chrome and Safari browsers.*/
 
 /*format footer*/
     
-    #footer {font-size: 10pt}
+    #footer {font-size: 10pt;
+        font-family: sans-serif}
 
     a:link {color:blue;}
     a:visited {color:orange;}

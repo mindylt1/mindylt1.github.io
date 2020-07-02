@@ -1,0 +1,24 @@
+ nav ul li {
+        display: inline-block;
+        border: 2px solid #003366;
+        background-color: rgba(0,153,255,0.3);
+        list-style-type: none;
+        width: 200px;
+        padding: 5px;
+        margin: 15px;
+        text-align: center;}
+
+    nav a {
+        font-size: 12pt; 
+        font-family: sans-serif;
+        color: #003366;}
+
+
+    
+    nav a:link {color:coral;}
+    nav a:visited {color:#0033cc;}
+    nav a:hover {color:teal;}
+    nav a:focus {color:cornflowerblue;}
+    nav a:active {color:peachpuff;}
+
+nav {text-align: center;}

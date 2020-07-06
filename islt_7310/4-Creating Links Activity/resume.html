@@ -19,25 +19,37 @@ Validated July 1, 2020
 ******************************************************************************
        -->
     <meta charset="UTF-8">
-    
-    <title>Thompson-Experience</title>
+    <title>Thompson Resume</title>
     
     <link rel="stylesheet" href="style.css">
     
     <link rel="stylesheet"
     href="nav.css">
     
+<!--Embedded CSS to style Resume link specifically-->
+    
+<style>
+    
+    main {text-align: center;} 
+    
+    main a {font-size: 14pt; font-weight: bold}
+    
+    main a:link {color:coral;}
+    main a:visited {color:#0033cc;}
+    main a:hover {color:teal;}
+    main a:focus {color:cornflowerblue;}
+    main a:active {color:peachpuff;}
+    
+</style>
+    
 </head>
-   
+
 <body>
- 
-  <!--navigation menu code-->
+  
+   <!--navigation menu code-->
    
- <nav>
-    <ul>
-        <li><a href="#">Contact</a></li>
-        
-        <li><a href="reflection.html">Philosophy</a></li>
+  <nav>
+     <ul>
         
         <li><a href="resume.html">Resume</a></li>
         
@@ -46,19 +58,18 @@ Validated July 1, 2020
                 <li><a href="#">Goal 1</a></li>
                 <li><a href="#">Goal 2</a></li>
                 <li><a href="#">Goal 3</a></li>
-            </ul>
+                    </ul>
             </li>
         
          <li><a href="index.html">Home</a></li>
-    </ul>
+      </ul>
     
 </nav>
- 
+  
 <!--Heading and subheading-->  
-
-<header>
-    <h1 class="heading1">Experience
-    </h1>
+  
+   <header>
+    <h1 class="heading1">Resume</h1>
      
      <h3 class="heading3">
      Mindy Thompson 
@@ -69,6 +80,25 @@ Validated July 1, 2020
      
      </header><br>
      
-<!--content-->
-     
+     <main>
+   
+    <h3 class="heading3">
+        Please click the link below to view a copy of my resume.</h3>
+        
+     <a href="docs/Thompsonresume.pdf"
+     type="application/pdf"
+     target="_blank">
+     Resume</a> 
+    
+    
+    </main>
+    
+    <br>
+    <br>
+    
+<footer>
+    <p id="footer"> &copy;2020 by Mindy Thompson:<a href="mailto:mlthompson@mail.missouri.edu">mlthompson@mail.missouri.edu</a></p>
+</footer>
+  
 </body>
+</html>

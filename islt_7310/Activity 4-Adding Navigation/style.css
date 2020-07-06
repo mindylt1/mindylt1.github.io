@@ -14,14 +14,14 @@ Validated July 1, 2020 using W3C CSS Validation Service*/
 
     body {
         background-color: rgba(0,153,255,0.1); 
-        margin: 15px;}
+        margin: 15px}
 
     .heading1 {
         font-size: 24pt; 
         color:coral; 
         border: 3px solid #003366;
         border-style: double; background-color: rgba(0,153,255,0.3); 
-        font-family: sans-serif;}
+        font-family: sans-serif}
 
     .heading3 {
         font-family: sans-serif; 

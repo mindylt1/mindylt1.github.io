@@ -113,6 +113,7 @@ padding-top: 0;
 #hamburger {display: none;}
 
 @media (max-width: 930px) {
+
     
   
   .heading1 {
@@ -131,8 +132,11 @@ padding-top: 0;
         font-size: 14pt; 
         color:#3366cc;
         text-align: center;}  
-    
-    blockquote {
+}
+
+@media (max-width: 740px) {
+        blockquote {
+        clear:left;
         font-size: 18pt; 
         font-family: cursive; 
         color: #3366cc;
@@ -142,9 +146,11 @@ padding-top: 0;
         font-weight: bold; 
         background-color: peachpuff}
     
-    
-    
-
+    #headshot {
+        
+        margin-left: 35%;
+        margin-right: 25%;
+        width: 28%;}
     
 }
     

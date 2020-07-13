@@ -19,6 +19,9 @@ Validated July 1, 2020
 ******************************************************************************
        -->
     <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    
     <title>Thompson- Philosophy</title>
     
     <link rel="stylesheet" href="style.css">
@@ -30,11 +33,23 @@ Validated July 1, 2020
     
 <style>
     
-    main p {margin: 25px;}
+    main p {margin: 25px;
+    }
     
     main p:first-child::first-letter {font-size: 150%; font-family: cursive;}
     
     .indent {text-indent: 20px;}
+    
+    main {float:left; 
+            width: 70%;
+            padding-right: 30px;
+            text-align: justify;
+            border-right: 1px black solid;}
+        
+        aside {text-align: center;}
+        
+        footer {clear: both;}
+    
     
 </style>
    
@@ -46,8 +61,11 @@ Validated July 1, 2020
    <!--navigation menu code-->
    
   <nav>
+   
+   <label id="hamburger">&#9776;</label>
+   
     <ul>
-        <li><a href="#">Contact</a></li>
+        <li><a href="contact.html">Contact</a></li>
         
         <li><a href="reflection.html">Philosophy</a></li>
         
@@ -101,13 +119,12 @@ Unfortunately, this is not something I understood very well when I first began m
 </p>
     
 </main>
+    
+<aside>
+    <p class="heading3"><strong>Recommended Articles and Links</strong></p>
+</aside>
      
     
-   
-  
- 
-
-
 <footer>
     <p id="footer"> &copy;2020 by Mindy Thompson:<a href="mailto:mlthompson@mail.missouri.edu">mlthompson@mail.missouri.edu</a></p>
 </footer>

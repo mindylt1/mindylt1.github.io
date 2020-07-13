@@ -14,14 +14,18 @@ Validated July 1, 2020 using W3C CSS Validation Service*/
 
     body {
         background-color: rgba(0,153,255,0.1); 
-        margin: 15px;}
+        margin: 15px;
+        }
 
     .heading1 {
         font-size: 24pt; 
+        padding: 8px;
         color:coral; 
         border: 3px solid #003366;
         border-style: double; background-color: rgba(0,153,255,0.3); 
-        font-family: sans-serif;}
+        font-family: sans-serif;
+        width:98.5%;
+        }
 
     .heading3 {
         font-family: sans-serif; 
@@ -42,11 +46,16 @@ Validated July 1, 2020 using W3C CSS Validation Service*/
 /*Makes paragraphs and lists 14pt size and dark blue*/
     p, li {
         font-size: 14pt;  
-        color: #003366;}
+        color: #003366;
+        }
 
 
 /*indent experience overview para.*/
-    #experience {margin-left: 25px}
+    #experience {margin-left: 25px;
+    border-bottom-style: 
+        double; border-bottom-color:#003366;
+        padding-bottom: 30px;
+        } 
 
 
 /*format footer*/
@@ -54,11 +63,11 @@ Validated July 1, 2020 using W3C CSS Validation Service*/
     #footer {font-size: 10pt;
         font-family: sans-serif}
 
-    a:link {color:blue;}
-    a:visited {color:orange;}
-    a:hover {color:red;}
-    a:focus {color:blueviolet;}
-    a:active {color:green;}
+    footer a:link {color:blue;}
+    footer a:visited {color:orange;}
+    footer a:hover {color:red;}
+    footer a:focus {color:blueviolet;}
+    footer a:active {color:green;}
 
     a {
         text-decoration: none; 
@@ -70,7 +79,7 @@ Validated July 1, 2020 using W3C CSS Validation Service*/
         double; border-top-color:#003366;
         padding-top: 5px;
         }
-
+footer {clear: both;}
 
 /*image style*/
     img{float:left}
@@ -82,7 +91,64 @@ Validated July 1, 2020 using W3C CSS Validation Service*/
 
 
 /*current job and ed: color coral*/
-    main li:last-child {
-        color:coral; 
-        text-decoration: underline}
 
+#sectionA li:last-child {
+        color:coral; 
+        }
+
+
+.sectionA {float: left;
+/*border-right: 2px #003366 solid;*/
+width: 50%;
+margin-top: 0;
+    
+}
+
+.sectionB {float: left;
+width: 45%; padding-left:10px;
+margin-top: 0;
+padding-top: 0;
+}
+
+#hamburger {display: none;}
+
+@media (max-width: 930px) {
+    
+  
+  .heading1 {
+        font-size: 24pt; 
+        padding: 8px;
+        color:coral; 
+        border: 3px solid #003366;
+        border-style: double; background-color: rgba(0,153,255,0.3); 
+        font-family: sans-serif;
+        width:95.5%;
+        text-align: center;
+        }
+
+    .heading3 {
+        font-family: sans-serif; 
+        font-size: 14pt; 
+        color:#3366cc;
+        text-align: center;}  
+    
+    blockquote {
+        font-size: 18pt; 
+        font-family: cursive; 
+        color: #3366cc;
+        margin-right: 10px;
+        text-align: center;
+        width: 93%;
+        font-weight: bold; 
+        background-color: peachpuff}
+    
+    
+    
+
+    
+}
+    
+    
+ 
+
+ 

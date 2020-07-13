@@ -1,6 +1,6 @@
  
         nav ul {list-style: none;
-                margin: 0;
+                margin-top: 0px;
                 padding: 0;
                 }
             
@@ -13,10 +13,11 @@
             
         nav a {
             text-decoration: none;
+            font-size: 12pt;
             display: inline-block;
             border: 2px solid #003366;
-            padding: 10px;
-            width: 150px;
+            padding: 15px;
+            width: 140px;
             margin: 2px;}
 
             
@@ -37,10 +38,68 @@
             top: 100%;
             display: none;}
 
-       
-
 
 /*allows hover to display the drop-down*/
 nav>ul>li:hover>ul{display: block;}
+
+@media (max-width: 930px) {
+    
+#hamburger {
+        display: inline-block;
+        float:left;
+        width: 26px;
+        font-size: 2em;
+        margin: 5px;
+    }
+  
+   
+    
+    nav ul, nav:active ul {
+            display: none;
+            position: absolute;
+            padding: 20px 20px 20px 0px;
+            top: 20px;}
+    
+    nav:hover ul {display: inline-block;}
+    
+    
+    nav:hover #mobileHide {
+                    display: none;}
+    
+    
+     nav li {
+            text-align: center;
+            padding: 0;
+            margin: 0;
+            float:left;
+             }
+                
+    nav>ul li {    
+            text-align: left;    
+            font-weight: bold;    
+            color: #003366;    
+            float: left;
+           } 
+    
+     nav a {    
+            text-decoration: none;    
+            display: block;    
+            border-top: none;    
+            border-bottom: none;    
+            padding: 15px 0px 15px 35px;    
+            width: 240px;    
+            margin: 0px;}
+    
+    
+     nav .lastMobile {
+                    border-bottom: 3px dotted #003366;}    
+                
+    nav ul li ul {display:none;}
+        
+    
+}
+
+
+
                   
             

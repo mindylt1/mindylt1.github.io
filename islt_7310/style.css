@@ -14,7 +14,7 @@ Validated July 1, 2020 using W3C CSS Validation Service*/
 
    @font-face {
    font-family: josefin;
-   src: url(fonts/JosefinSans-VariableFont_wght.ttf);
+   src: url(images/JosefinSans-VariableFont_wght.ttf);
 }
 
     body {
@@ -25,6 +25,8 @@ Validated July 1, 2020 using W3C CSS Validation Service*/
     .heading1 {
         font-size: 30pt; 
         padding: 6px;
+        padding-top: 9px;
+        padding-bottom: 3px;
         color:#003366; 
         border: 3px solid #003366;
         border-style: double; background-color: rgba(0,153,255,0.3); 

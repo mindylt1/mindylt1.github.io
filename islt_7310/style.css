@@ -18,9 +18,19 @@ Validated July 1, 2020 using W3C CSS Validation Service*/
 }
 
     body {
-        background-color: rgba(0,153,255,0.1); 
-        margin: 15px;
-        }
+        background-image: url(images/blue_orange_background%202.jpg);
+        
+        background-color: rrgba(0,153,255,0.1);
+        
+           
+          background-position: center; 
+          background-repeat: repeat;
+          background-size: cover; 
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 20px;
+}
+       
 
     .heading1 {
         font-size: 30pt; 
@@ -29,7 +39,7 @@ Validated July 1, 2020 using W3C CSS Validation Service*/
         padding-bottom: 3px;
         color:#003366; 
         border: 3px solid #003366;
-        border-style: double; background-color: rgba(0,153,255,0.3); 
+        border-style: double; background-color: rgb(0,153,153,0.7); 
         width:98.7%;
         font-family: josefin;
         margin-top: 5px;
@@ -37,24 +47,26 @@ Validated July 1, 2020 using W3C CSS Validation Service*/
 
     .heading3 {
         font-family: josefin; 
-        font-size: 14pt; 
-        color:#3366cc}
+        font-size: 16pt; 
+        color:#003366;
+        font-weight: bolder;}
 
 
 /*style size, position, font of block*/
     blockquote {
-        font-size: 18pt; 
+        font-size: 20pt; 
         font-family: cursive; 
-        color: #3366cc; 
+        color: #003366; 
         text-align: center; 
         font-weight: bold; 
-        background-color: peachpuff}
+        background-color: rgb(255,153,102)}
 
 
 /*Makes paragraphs and lists 14pt size and dark blue*/
     p, li {
         font-size: 14pt;  
         color: #003366;
+        font-weight: 300;
         }
 
 
@@ -70,6 +82,7 @@ Validated July 1, 2020 using W3C CSS Validation Service*/
     
     #footer {font-size: 10pt;
         font-family: sans-serif;
+        font-weight: 400;
         
 }
         
@@ -100,7 +113,8 @@ Validated July 1, 2020 using W3C CSS Validation Service*/
     img {
         border: 3px solid #003366; margin-right: 40px; 
         margin-bottom: 20px;
-        padding: 10px}
+        padding: 10px;
+        }
 
 
 /*current job and ed: color coral*/

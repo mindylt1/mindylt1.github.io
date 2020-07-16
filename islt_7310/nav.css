@@ -27,10 +27,12 @@
         
         nav a:visited {color: #003366;}
 
-        nav a:hover, nav a:focus {    background-color:           aliceblue;
-            color: coral;}
+        nav a:hover, nav a:focus
+    
+    {background-color:peachpuff;
+    color: coral;}
             
-            nav a:active {background-color: peachpuff;} 
+    nav a:active {background-color: peachpuff;} 
             
         
         nav ul>li ul {

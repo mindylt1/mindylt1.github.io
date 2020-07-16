@@ -18,13 +18,13 @@ Validated July 1, 2020 using W3C CSS Validation Service*/
         }
 
     .heading1 {
-        font-size: 24pt; 
-        padding: 8px;
-        color:coral; 
+        font-size: 25pt; 
+        padding: 0px;
+        color:#003366; 
         border: 3px solid #003366;
         border-style: double; background-color: rgba(0,153,255,0.3); 
-        font-family: sans-serif;
-        width:98.5%;
+        font-family: cursive;
+        width:99.2%;
         }
 
     .heading3 {
@@ -61,7 +61,10 @@ Validated July 1, 2020 using W3C CSS Validation Service*/
 /*format footer*/
     
     #footer {font-size: 10pt;
-        font-family: sans-serif}
+        font-family: sans-serif;
+        
+}
+        
 
     footer a:link {color:blue;}
     footer a:visited {color:orange;}
@@ -72,14 +75,16 @@ Validated July 1, 2020 using W3C CSS Validation Service*/
     a {
         text-decoration: none; 
         font-size: 10pt; 
-        font-family: sans-serif} 
+        font-family: sans-serif;
+        } 
 
     footer {
         border-top-style: 
         double; border-top-color:#003366;
-        padding-top: 5px;
+        padding-top: 40px;
         }
-footer {clear: both;}
+    
+    footer {clear: both;}
 
 /*image style*/
     img{float:left}
@@ -109,6 +114,15 @@ width: 45%; padding-left:10px;
 margin-top: 0;
 padding-top: 0;
 }
+
+ .icon {height: 15px;
+            width: 15px;
+            border: none;
+            padding: 0;
+            margin: 0;
+            padding-right: 3px;
+            }
+ 
 
 #hamburger {display: none;}
 

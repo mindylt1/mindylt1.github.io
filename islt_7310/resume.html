@@ -29,37 +29,80 @@ Validated July 1, 2020
     <link rel="stylesheet"
     href="nav.css">
     
-<!--Embedded CSS to style Resume link specifically-->
+    <link rel="icon" type="image/png" href="images/brainflavicon.png">
+    
+    
+    
+
     
 <style>
+ 
+/*This page if formatted differently, so using embedded CSS to specifically format this page*/
     
 main {text-align: center;
-        float: right;
-        width: 35%; 
-        padding: 25px;
-        margin-top: 150px;
-        background-color: peachpuff;
-        border: double 3px #003366;
-        
-} 
-    
-main a {font-size: 14pt; 
-        font-weight: bold;
-        text-decoration: underline;}
-    
-    main a:link {color:coral;}
-    main a:visited {color:#0033cc;}
-    main a:hover {color:teal;}
-    main a:focus {color:cornflowerblue;}
-    main a:active {color:peachpuff;}
+        float: left;
+        width: 64%; 
+        padding-top: 55px;
+        margin-top: 0px;
+        padding-right: 35px;
+        border-top:double 3px #003366;} 
     
 aside {text-align: center;
        float: left;
-        width: 58%;
+        background-color: peachpuff;
+        width: 28%;
         margin-top: 0;
-    padding-bottom: 20px;}
+        padding-top: 0;
+        margin-bottom: 0px;
+        padding-bottom: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border:double 3px #003366;}
 
+/*Embedded CSS to style footer background link specifically-->*/
+    
+  footer {
+      background-image: url(images/background_light.jpg);
+      
+      background-color: rgba(0,153,255,0.1); 
+      height: 100px; 
+      background-position: center; 
+      background-repeat: no-repeat;
+      background-size: cover; 
+}
+      
+   
+ /*Embedded CSS to style Resume link specifically-->*/
+    
+.resumelink {font-size: 14pt; 
+        font-weight: bold;
+        text-decoration: underline;}
+    
+    .resumelink:link {color:coral;}
+    resumelink:visited {color:#0033cc;}
+    .resumelink:hover {color:teal;}
+    .resumelink:focus {color:cornflowerblue;}
+    resumelink:active {color:peachpuff;}
+    
+/*Responsive code to prevent the boxes from getting weird as the screen gets smaller*/
+    
 @media (max-width: 1200px) {
+    
+     main 
+     {float: none;
+        margin-left: 15%;
+        margin-right: 25%;
+        margin-bottom: 40px;}
+    
+    aside {clear: left;
+            margin-left: 30%;
+            margin-right: 25%;
+            margin-bottom: 20px;}
+    }
+    
+    
+  
+    /*Previous format--saving for reference
     
     aside 
         {float: none;
@@ -76,13 +119,10 @@ aside {text-align: center;
         margin-right: 25%;
         margin-bottom: 40px;
         margin-top: 10px;
-        text-align: center;}
-    
-    
-    }
-    
+        text-align: center;}*/   
     
 </style>
+   
     
 </head>
 
@@ -90,7 +130,7 @@ aside {text-align: center;
   
    <!--navigation menu code-->
    
-  <nav>
+<nav>
   
 <label id="hamburger">&#9776;</label>
    
@@ -132,29 +172,58 @@ aside {text-align: center;
      </header>
 <br>
 <br>
-     
-<aside>        
-    <embed src="docs/Thompsonresume.pdf" width="100%" height="600">
-</aside>  
-    
+ 
 <main>
      
-<h3 class="heading3">
-        If your browser does not support embedded PDFs, please click the link below to download and view a copy of my resume.</h3>
-        
-     <a href="docs/Thompsonresume.pdf"
-     type="application/pdf"
-     target="_blank">
-     Resume</a> 
+<video width=80% controls>
+    <source src="images/Video_Resume.webm" type="video/webm">
+</video>
     
 </main>
     
-    <br>
-    <br>
+<aside> 
+
+<p class="heading3">
+   <u>My Resume</u>
+</p>       
+    <embed src="docs/Thompsonresume.pdf" width="100%" height="250px">
+    
+<p>
+    If your browser does not support embedded PDFs, please click the link below to download and view a copy of my resume.
+
+</p>
+   
+     <a href="docs/Thompsonresume.pdf" class="resumelink"
+     type="application/pdf"
+     target="_blank">
+    Resume</a>
+     
+</aside>  
+    
     
 <footer>
-    <p id="footer"> &copy;2020 by Mindy Thompson:<a href="mailto:mlthompson@mail.missouri.edu">mlthompson@mail.missouri.edu</a></p>
+     <div id="footer"> 
+         &copy;2020 by Mindy Thompson
+         
+    </div>
+         
+    <div id="footer">
+    <br>
     
+    <img src="images/email.ico" class="icon">
+    
+     <a href="mailto:mlthompson@mail.missouri.edu">mlthompson@mail.missouri.edu</a>
+     
+    </div>
+    
+     <div id="footer">
+        <br>
+        
+        <img src="images/Telephone.ico" class="icon">
+         910-555-5555
+         
+     </div>
+     
 </footer>
   
 </body>

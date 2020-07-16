@@ -12,23 +12,29 @@ Tested:  July 1, 2020, passed on Chrome and Safari browsers.
 
 Validated July 1, 2020 using W3C CSS Validation Service*/
 
+   @font-face {
+   font-family: josefin;
+   src: url(fonts/JosefinSans-VariableFont_wght.ttf);
+}
+
     body {
         background-color: rgba(0,153,255,0.1); 
         margin: 15px;
         }
 
     .heading1 {
-        font-size: 25pt; 
-        padding: 0px;
+        font-size: 30pt; 
+        padding: 6px;
         color:#003366; 
         border: 3px solid #003366;
         border-style: double; background-color: rgba(0,153,255,0.3); 
-        font-family: cursive;
-        width:99.2%;
+        width:98.7%;
+        font-family: josefin;
+        margin-top: 5px;
         }
 
     .heading3 {
-        font-family: sans-serif; 
+        font-family: josefin; 
         font-size: 14pt; 
         color:#3366cc}
 
@@ -131,21 +137,25 @@ padding-top: 0;
     
   
   .heading1 {
-        font-size: 24pt; 
-        padding: 8px;
-        color:coral; 
+        font-size: 28pt; 
+        margin-top: 10px;
+        padding: 20px;
+        color:#003366; 
         border: 3px solid #003366;
         border-style: double; background-color: rgba(0,153,255,0.3); 
-        font-family: sans-serif;
+        font-family: josefin;
         width:95.5%;
         text-align: center;
         }
+    
 
     .heading3 {
-        font-family: sans-serif; 
+        font-family: Josefin; 
         font-size: 14pt; 
         color:#3366cc;
-        text-align: center;}  
+        text-align: center;} 
+    
+    
 }
 
 @media (max-width: 740px) {
@@ -165,6 +175,20 @@ padding-top: 0;
         margin-left: 35%;
         margin-right: 25%;
         width: 28%;}
+}
+
+@media print {
+    *{background: transparent !important;
+        color: black !important;}
+    
+    nav {display: none;}
+    
+     blockquote, main, sectionA, sectionB, footer {
+        width: 95%;
+        margin: 0;
+        padding: 0;
+        font-family: serif;}
+    
     
 }
     

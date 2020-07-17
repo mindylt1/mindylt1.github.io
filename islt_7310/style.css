@@ -26,11 +26,17 @@ Validated July 1, 2020 using W3C CSS Validation Service*/
           background-position: center; 
           background-repeat: repeat;
           background-size: cover; 
-        margin-left: 5%;
-        margin-right: 5%;
+        
         margin-top: 20px;
 }
-       
+
+/*Indents everything between header and footer*/
+
+.notthefooter {margin-left: 4%;
+margin-right: 3%;}  
+
+/*styles headings*/
+
 
     .heading1 {
         font-size: 30pt; 
@@ -54,17 +60,21 @@ Validated July 1, 2020 using W3C CSS Validation Service*/
 
 /*style size, position, font of block*/
     blockquote {
+        float: left;
+        width: 73%;
         font-size: 20pt; 
         font-family: cursive; 
         color: #003366; 
         text-align: center; 
         font-weight: bold; 
-        background-color: rgb(255,153,102)}
+        background-color: rgb(255,153,102);
+        margin-top: 30px;
+        margin-bottom: 50px;}
 
 
 /*Makes paragraphs and lists 14pt size and dark blue*/
-    p, li {
-        font-size: 14pt;  
+    p, li, figcaption {
+        font-size: 16pt;  
         color: #003366;
         font-weight: 300;
         }
@@ -80,7 +90,7 @@ Validated July 1, 2020 using W3C CSS Validation Service*/
 
 /*format footer*/
     
-    #footer {font-size: 10pt;
+    .footer {font-size: 10pt;
         font-family: sans-serif;
         font-weight: 400;
         
@@ -98,14 +108,40 @@ Validated July 1, 2020 using W3C CSS Validation Service*/
         font-size: 10pt; 
         font-family: sans-serif;
         } 
+/*footer dimensions*/
 
     footer {
         border-top-style: 
         double; border-top-color:#003366;
-        padding-top: 40px;
+        padding-top: 20px;
+        padding-left: 10px;
+        margin-left: 0;
         }
+
+/*footer background*/
+
+footer {
+      background-image: url(images/ocean_background.jpg);
+      
+      background-color: rgba(0,153,255,0.1); 
+      height: 100px; 
+      background-position: center; 
+      background-repeat: no-repeat;
+      background-size: cover;}
+
+/*style the footer icons*/
     
-    footer {clear: both;}
+.icon {height: 15px;
+            width: 15px;
+            border: none;
+            padding: 0;
+            margin: 0;
+         padding-right: 3px;}
+
+.icon:hover {
+    transform: scale(1.5)}
+
+footer {clear: both;}
 
 /*image style*/
     img{float:left}
@@ -115,6 +151,9 @@ Validated July 1, 2020 using W3C CSS Validation Service*/
         margin-bottom: 20px;
         padding: 10px;
         }
+
+#headshot {height: 300px;
+            width: 200px;}
 
 
 /*current job and ed: color coral*/
@@ -137,14 +176,7 @@ margin-top: 0;
 padding-top: 0;
 }
 
- .icon {height: 15px;
-            width: 15px;
-            border: none;
-            padding: 0;
-            margin: 0;
-            padding-right: 3px;
-            }
- 
+/*Coding for Responsive Design*/
 
 #hamburger {display: none;}
 

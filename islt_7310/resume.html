@@ -32,9 +32,6 @@ Validated July 1, 2020
     <link rel="icon" type="image/png" href="images/brainflavicon.png">
     
     
-    
-
-    
 <style>
  
 /*This page if formatted differently, so using embedded CSS to specifically format this page*/
@@ -42,9 +39,10 @@ Validated July 1, 2020
 main {text-align: center;
         float: left;
         width: 64%; 
-        padding-top: 55px;
+        padding-top: 60px;
         margin-top: 0px;
-        padding-right: 35px;
+        padding-right: 55px;
+        padding-bottom: 40px;
         border-top:double 3px #003366;} 
     
 aside {text-align: center;
@@ -52,24 +50,23 @@ aside {text-align: center;
         background-color: rgb(255,153,102);
         width: 28%;
         margin-top: 0;
-        padding-top: 0;
+        padding-top: 60px;
         margin-bottom: 0px;
-        padding-bottom: 20px;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-bottom: 60px;
+        padding-left: 18px;
+        padding-right: 20px;
         border:double 3px #003366;}
+    
+video {width: 100%;
+            height: 100%;}
+    
+#embedresume {width: 100%;
+                margin-top: 30px;
+                margin-bottom: 30px;}
 
 /*Embedded CSS to style footer background link specifically-->*/
     
-  footer {
-      background-image: url(images/ocean_background.jpg);
-      
-      background-color: rgba(0,153,255,0.1); 
-      height: 100px; 
-      background-position: center; 
-      background-repeat: no-repeat;
-      background-size: cover; 
-}
+  
       
    
  /*Embedded CSS to style Resume link specifically-->*/
@@ -88,38 +85,17 @@ aside {text-align: center;
     
 @media (max-width: 1200px) {
     
-     main 
+main 
      {float: none;
         margin-left: 15%;
         margin-right: 25%;
         margin-bottom: 40px;}
     
-    aside {clear: left;
+aside {clear: left;
             margin-left: 30%;
             margin-right: 25%;
             margin-bottom: 20px;}
-    }
-    
-    
-  
-    /*Previous format--saving for reference
-    
-    aside 
-        {float: none;
-        margin-left: 25%;
-        margin-right: 25%;
-        margin-bottom: 0px;}
-        
-    
-    
-    main 
-        {
-        clear: left;
-        margin-left: 25%;
-        margin-right: 25%;
-        margin-bottom: 40px;
-        margin-top: 10px;
-        text-align: center;}*/   
+    } 
     
 </style>
    
@@ -145,9 +121,12 @@ aside {text-align: center;
         <li><a href="background.html">Experience</a>
             <ul id="mobileHide">
                
-                <li> <a href="#">Goal 1</a></li>
-                <li><a href="#">Goal 2</a></li>
-                <li class="lastMobile"><a href="#">Goal 3</a></li>
+                <li> <a href= "background.html#section1">Advanced Academics Teacher</a></li>
+                
+                <li> <a href= "background.html#section2">Leadership Team Member</a></li>
+                
+                <li class="lastMobile"><a href= "background.html#section3">Classroom Teacher</a></li>
+                
             </ul>
             </li>
         
@@ -155,7 +134,7 @@ aside {text-align: center;
     </ul>
     
 </nav> 
-
+ 
   
 <!--Heading and subheading-->  
   
@@ -172,10 +151,11 @@ aside {text-align: center;
      </header>
 <br>
 <br>
+
  
 <main>
      
-<video width=80% controls>
+<video controls>
     <source src="images/Video_Resume.webm" type="video/webm">
 </video>
     
@@ -184,42 +164,52 @@ aside {text-align: center;
 <aside> 
 
 <p class="heading3">
-   <u>My Resume</u>
-</p>       
-    <embed src="docs/Thompsonresume.pdf" width="100%" height="250px">
     
-<p>
-    If your browser does not support embedded PDFs, please click the link below to download and view a copy of my resume.
-
-</p>
+     Download a copy of my resume here. </p>
+        
+  
+<div id="embedresume">       
+    
+<embed src="docs/Thompsonresume.pdf" height="300">
+     
+</div>  
    
-     <a href="docs/Thompsonresume.pdf" class="resumelink"
+<div> 
+    
+<a href="docs/Thompsonresume.pdf"         class="resumelink"
      type="application/pdf"
      target="_blank">
-    Resume</a>
+        Resume</a>
+
+</div> 
+
      
 </aside>  
     
     
 <footer>
-     <div id="footer"> 
+     <div class="footer"> 
          &copy;2020 by Mindy Thompson
          
     </div>
          
-    <div id="footer">
+    <div class="footer">
     <br>
     
-    <img src="images/email.ico" class="icon">
+    <img src="images/email.ico" 
+        alt="email icon"
+        class="icon">
     
      <a href="mailto:mlthompson@mail.missouri.edu">mlthompson@mail.missouri.edu</a>
      
     </div>
     
-     <div id="footer">
+    <div class="footer">
         <br>
         
-        <img src="images/Telephone.ico" class="icon">
+    <img src="images/Telephone.ico" 
+        alt="telephone icon"
+        class="icon">
          910-555-5555
          
      </div>

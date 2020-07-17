@@ -44,7 +44,7 @@
 /*allows hover to display the drop-down*/
 nav>ul>li:hover>ul{display: block;}
 
-@media (max-width: 930px) {
+@media (max-width: 995px) {
     
 #hamburger {
         display: inline-block;

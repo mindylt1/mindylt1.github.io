@@ -43,7 +43,52 @@ Validated July 1, 2020
         padding-bottom: 30px;
         text-align: center;}
     
+    aside a {
+        font-size: 12pt;  
+        color: #003366;
+        font-weight: 300;
+        font-family: josefin;
+        text-decoration: underline;
+        }
+    
+    aside a:hover, a:focus {color: rgb(255,153,102)}
+    
     footer {clear: both;}
+    
+ /*Begin CSS for Contact Form*/
+    
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #003366; /* dark blue border */
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical}
+
+/* Style the submit button*/
+    
+input[type=submit] {
+  background-color: #003366;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: darkorange;}
+
+/* Add a background color and some padding around the form */
+.form {
+  border-radius: 5px;
+  background-color: rgb(0,153,153,0.5);
+  padding: 20px;
+    margin-bottom: 30px;
+}
         
 </style>
    
@@ -103,7 +148,26 @@ Validated July 1, 2020
 
 <p class="heading3"><strong><u>Fill out the contact form below.</u></strong></p>
    
-   <p>Contact form goes here</p>
+<div class="form">
+ 
+<form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <input type="text" id="country" name="country" placeholder="Country..">
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
     
 </div> 
   
@@ -111,28 +175,42 @@ Validated July 1, 2020
    
     
 <aside>
+   
     <p class="heading3"><strong><u>Contact Me Directly</u></strong></p>
     <br>
     
     <p class="heading3">Work Contact</p>
     
-    <p>100 Barnett Way<br>
-    Camp Lejeune, NC  28547<br>
+        <p>100 Barnett Way
+        
+        <br>
+        
+        Camp Lejeune, NC  28547
+        
+        <br>
     
-    &#9742; 910-449-8000<br>
+        &#9742; 910-449-8000<br>
     
-   &#9998; <small>mindy.thompson@student.dodea.edu</small>
+       &#9998; <a href="mailto:mindy.thompson@student.dodea.edu">mindy.thompson@student.dodea.edu</a>
     
     </p>
     
     <br>
     <br>
+    
     <p class="heading3">Home Contact</p>
-    <p>1234 East Main St.<br>
-    Hampstead, NC 28443<br>
+    
+    <p>1234 East Main St.
+    
+    <br>
+    
+    Hampstead, NC 28443
+    
+    <br>
+    
     &#9742; 910-555-5555<br>
     
-    &#9998; <small>mlthompson@mail.missouri.edu</small>
+    &#9998; <a href="mailto:mlthompson@mail.missouri.edu">mlthompson@mail.missouri.edu </a>
     </p>
     
     

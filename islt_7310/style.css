@@ -91,17 +91,18 @@ margin-right: 3%;}
 /*format footer*/
     
     .footer {font-size: 10pt;
-        font-family: sans-serif;
+        font-family: josefin;
         font-weight: 400;
         
 }
         
 
-    footer a:link {color:blue;}
-    footer a:visited {color:orange;}
-    footer a:hover {color:red;}
-    footer a:focus {color:blueviolet;}
-    footer a:active {color:green;}
+    footer a:link {color:#003366;
+    font-weight: bolder;}
+    footer a:visited {color:cornflowerblue;}
+    footer a:hover {color:coral;}
+    footer a:focus {color:coral;}
+    footer a:active {color:black;}
 
     a {
         text-decoration: none; 

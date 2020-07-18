@@ -33,7 +33,7 @@ Validated July 1, 2020 using W3C CSS Validation Service*/
 /*Indents everything between header and footer*/
 
 .notthefooter {margin-left: 4%;
-margin-right: 3%;}  
+margin-right: 4%;}  
 
 /*styles headings*/
 
@@ -57,20 +57,51 @@ margin-right: 3%;}
         color:#003366;
         font-weight: bolder;}
 
+ 
 
-/*style size, position, font of block*/
+/*formatting the layout of the index page*/
+
+    aside{float:left;
+    margin-top: 50px;
+    margin-right: 20px;
+    }
+
     blockquote {
         float: left;
-        width: 73%;
+        width: 68%;
         font-size: 20pt; 
         font-family: cursive; 
         color: #003366; 
         text-align: center; 
         font-weight: bold; 
         background-color: rgb(255,153,102);
-        margin-top: 30px;
-        margin-bottom: 50px;}
+        margin-top: 60px;
+        margin-bottom: 40px;
+        border: 2px #003366 solid;
+        border: 3px #003366 solid;
+    }
 
+main {float: left;
+    width: 75%;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+    }
+
+#overview {clear:both;}
+
+
+
+/*image style*/
+
+    img {
+        border: 3px solid #003366; margin-right: 30px; 
+        margin-bottom: 20px;
+        padding: 10px;
+        }
+
+#headshot {height: 10%;
+            width: 200px;}
 
 /*Makes paragraphs and lists 14pt size and dark blue*/
     p, li, figcaption {
@@ -144,17 +175,6 @@ footer {
 
 footer {clear: both;}
 
-/*image style*/
-    img{float:left}
-
-    img {
-        border: 3px solid #003366; margin-right: 40px; 
-        margin-bottom: 20px;
-        padding: 10px;
-        }
-
-#headshot {height: 300px;
-            width: 200px;}
 
 
 /*current job and ed: color coral*/
@@ -207,7 +227,7 @@ padding-top: 0;
     
 }
 
-/*centers pic and moves blockquote below pic*/
+/*centers pic and moves blockquote below pic
 
 @media (max-width: 740px) {
         
@@ -223,7 +243,7 @@ padding-top: 0;
         background-color: rgb(255,153,102)}
     
     #headshot {
-        margin-left: 30%;}
+        margin-left: 30%;}*/
           
         
 }

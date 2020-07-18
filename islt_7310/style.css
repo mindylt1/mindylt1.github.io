@@ -20,7 +20,7 @@ Validated July 1, 2020 using W3C CSS Validation Service*/
     body {
         background-image: url(images/blue_orange_background%202.jpg);
         
-        background-color: rrgba(0,153,255,0.1);
+        background-color: rgba(0,153,255,0.1);
         
            
           background-position: center; 
@@ -224,10 +224,9 @@ padding-top: 0;
         color:#003366;
         text-align: center;} 
     
-    
 }
 
-/*centers pic and moves blockquote below pic
+/*Saved for reference--centers pic and moves blockquote below pic
 
 @media (max-width: 740px) {
         
@@ -245,8 +244,7 @@ padding-top: 0;
     #headshot {
         margin-left: 30%;}*/
           
-        
-}
+
 
 @media print {
     *{background: transparent !important;

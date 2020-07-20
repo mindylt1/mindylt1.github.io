@@ -197,6 +197,40 @@ margin-top: 0;
 padding-top: 0;
 }
 
+/*CSS to style the table*/
+    
+    th, td {
+        border: solid 1px #003365;
+        font-family: josefin;
+        font-size: 12pt;
+        line-height: 1.4;}
+    
+    table a {font-family: josefin;
+            font-size: 12pt;
+            color: #003366;
+            text-decoration: underline;}
+    table {border: 2px solid #003366;}
+    
+    table a:hover, a:focus {color:coral;}
+    
+    th, tr, td {padding-top: 10px;
+            padding-bottom: 10px;}
+    
+    thead {background-color: rgb(0,153,153,0.7);}
+    
+    
+    tbody tr:nth-child(odd)
+    {background-color: peachpuff;}
+    
+    caption {caption-side: bottom;
+                font-size: 12pt;
+                font-family: josefin;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                color: #003366;}
+    
+    
+
 /*Coding for Responsive Design*/
 
 #hamburger {display: none;}

@@ -169,11 +169,13 @@ main
      
 <div class="notthefooter">
 
-<p class="heading3"><strong><u>Fill out the contact form below.</u></strong></p>
+<p class="heading3"><strong><u>Fill out the contact form below to send me an email.</u></strong></p>
    
 <div class="form">
  
-<form action="action_page.php">
+<form action="mailto:email@missouri.edu?Subject=Professional%20Website%20Contact" 
+method="post" 
+enctype="text/plain">
 
     <label for="fname">First Name</label>
     <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -187,7 +189,7 @@ main
     <label for="subject">Subject</label>
     <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-    <input type="submit" value="Submit">
+    <input type="submit" value="Send">
 
   </form>
 </div>

@@ -61,6 +61,26 @@ Validated July 1, 2020
 
 <body>
 
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+
+//Bread crumb script - Kevin Lynn Brown
+//Duplicate directory names bug fix by JavaScriptKit.com
+//Visit JavaScript Kit (http://javascriptkit.com) for script
+
+var path = "";
+var href = document.location.href;
+var s = href.split("/");
+for (var i=2;i<(s.length-1);i++) {
+path+="<A HREF=\""+href.substring(0,href.indexOf("/"+s[i])+s[i].length+1)+"/\">"+s[i]+"</A> / ";
+}
+i=s.length-1;
+path+="<A HREF=\""+href.substring(0,href.indexOf(s[i])+s[i].length)+"\">"+s[i]+"</A>";
+var url = window.location.protocol + "//" + path;
+document.writeln(url);
+//-->
+</script>
+
 <nav>
   
 <label id="hamburger">&#9776;</label>
@@ -89,7 +109,6 @@ Validated July 1, 2020
     </ul>
     
 </nav> 
-
 
 
 <header>
@@ -206,7 +225,19 @@ Validated July 1, 2020
          910-555-5555
          
      </div>
-         
+     
+    <br>
+    
+    <div class="footer" align="left">This free script provided by <a href="http://javascriptkit.com">JavaScript Kit</a>
+   
+    </div>
+
+  <a href='https://www.symptoma.com/en/info/covid-19'>Corona vs. Flu</a> 
+  
+  <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=5840e73db10f2021088551d7ec6d62a73fbb242a'></script>
+  
+<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/727751/t/5"></script>
+       
 </footer>
 
 

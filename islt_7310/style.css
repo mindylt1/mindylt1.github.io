@@ -148,6 +148,7 @@ main {float: left;
         padding-top: 20px;
         padding-left: 10px;
         margin-left: 0;
+        margin-bottom: 0;
         }
 
 /*footer background*/
@@ -156,7 +157,7 @@ footer {
       background-image: url(images/ocean_background.jpg);
       
       background-color: rgba(0,153,255,0.1); 
-      height: 100px; 
+      height: 200px; 
       background-position: center; 
       background-repeat: no-repeat;
       background-size: cover;}
@@ -174,7 +175,6 @@ footer {
     transform: scale(1.5)}
 
 footer {clear: both;}
-
 
 
 /*current job and ed: color coral*/
